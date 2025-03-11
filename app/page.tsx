@@ -4,6 +4,7 @@ import Hero from './../components/homePageComponents/Hero';
 import HeroB from './../components/homePageComponents/HeroB';
 import Companies from './../components/homePageComponents/Companies';
 import Details from './../components/homePageComponents/Details';
+import FundDetails from './../components/homePageComponents/FundDetails';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroB/>
       <Companies/>
       <Details/>
+      <FundDetails/>
     </div>
   );
 }
