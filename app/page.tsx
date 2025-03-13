@@ -6,6 +6,7 @@ import Companies from './../components/homePageComponents/Companies';
 import Details from './../components/homePageComponents/Details';
 import FundDetails from './../components/homePageComponents/FundDetails';
 import Analytics from './../components/homePageComponents/Analytics';
+import BetterUnderstand from './../components/homePageComponents/BetterUnderstand';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Details/>
       <FundDetails/>
       <Analytics/>
+      <BetterUnderstand/>
     </div>
   );
 }
