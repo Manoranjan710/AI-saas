@@ -5,6 +5,7 @@ import HeroB from './../components/homePageComponents/HeroB';
 import Companies from './../components/homePageComponents/Companies';
 import Details from './../components/homePageComponents/Details';
 import FundDetails from './../components/homePageComponents/FundDetails';
+import Analytics from './../components/homePageComponents/Analytics';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Companies/>
       <Details/>
       <FundDetails/>
+      <Analytics/>
     </div>
   );
 }
