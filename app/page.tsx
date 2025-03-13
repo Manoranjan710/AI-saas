@@ -7,6 +7,9 @@ import Details from './../components/homePageComponents/Details';
 import FundDetails from './../components/homePageComponents/FundDetails';
 import Analytics from './../components/homePageComponents/Analytics';
 import BetterUnderstand from './../components/homePageComponents/BetterUnderstand';
+import DataInsights from './../components/homePageComponents/DataInsights';
+import Apps from './../components/homePageComponents/Apps';
+import StayUpdate from './../components/homePageComponents/StayUpdate';
 
 export default function Home() {
   return (
@@ -19,6 +22,9 @@ export default function Home() {
       <FundDetails/>
       <Analytics/>
       <BetterUnderstand/>
+      <DataInsights/>
+      <Apps/>
+      <StayUpdate/>
     </div>
   );
 }

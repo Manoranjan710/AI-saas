@@ -52,7 +52,7 @@ const Analytics = () => {
                 <img
                   src="/analytics-img-2.png"
                   alt=""
-                  className="rounded-br-[18px] h-full "
+                  className="rounded-br-[18px] h-full"
                 />
               </div>
             </div>
