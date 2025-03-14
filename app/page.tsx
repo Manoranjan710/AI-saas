@@ -23,8 +23,8 @@ export default function Home() {
       <Details/>
       <FundDetails/>
       <Analytics/>
-      {/* <BetterUnderstand/> */}
-      {/* <DataInsights/> */}
+      <BetterUnderstand/>
+      <DataInsights/>
       {/* <Apps/> */}
       {/* <StayUpdate/> */}
       {/* <ScaleUp/> */}
