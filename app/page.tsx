@@ -27,8 +27,8 @@ export default function Home() {
       <DataInsights/>
       <Apps/>
       <StayUpdate/>
-      {/* <ScaleUp/> */}
-      {/* <Footer/> */}
+      <ScaleUp/>
+      <Footer/>
     </div>
   );
 }

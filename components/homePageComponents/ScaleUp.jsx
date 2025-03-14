@@ -4,13 +4,13 @@ const ScaleUp = () => {
   return (
     <div className="bg-black/70 py-[5rem]">
       <div className="w-[90%] mx-auto flex flex-col justify-center items-center">
-        <h2 className="text-[64px] text-[#DDDDDD] leading-[0.8] text-center">
+        <h2 className=" text-3xl md:text-[64px] text-[#DDDDDD] leading-[0.8] text-center">
           Scale up your SaaS, <br />
-          <span className="text-[64px] text-[#DDDDDD] leading-[1]">
+          <span className=" text-3xl md:text-[64px] text-[#DDDDDD] leading-[1]">
             E-commerce and more with
           </span>
         </h2>
-        <h2 className="text-[64px] md:text-5xl font-normal leading-tight m-0 bg-gradient-to-r from-indigo-600 to-purple-500 bg-clip-text text-transparent">
+        <h2 className="md:text-[64px] text-3xl font-normal leading-tight m-0 bg-gradient-to-r from-indigo-600 to-purple-500 bg-clip-text text-transparent">
           AI powered Analytics
         </h2>
       </div>
