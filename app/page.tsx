@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <Hero/>
+      {/* <Hero/>
       <HeroB/>
       <Companies/>
       <Details/>
@@ -28,7 +28,7 @@ export default function Home() {
       <Apps/>
       <StayUpdate/>
       <ScaleUp/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }
