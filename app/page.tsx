@@ -10,6 +10,8 @@ import BetterUnderstand from './../components/homePageComponents/BetterUnderstan
 import DataInsights from './../components/homePageComponents/DataInsights';
 import Apps from './../components/homePageComponents/Apps';
 import StayUpdate from './../components/homePageComponents/StayUpdate';
+import ScaleUp from './../components/homePageComponents/ScaleUp';
+import Footer from './../components/homePageComponents/Footer';
 
 export default function Home() {
   return (
@@ -25,6 +27,8 @@ export default function Home() {
       <DataInsights/>
       <Apps/>
       <StayUpdate/>
+      <ScaleUp/>
+      <Footer/>
     </div>
   );
 }
