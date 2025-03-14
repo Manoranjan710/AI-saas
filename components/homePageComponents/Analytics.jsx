@@ -4,20 +4,20 @@ const Analytics = () => {
   return (
     <div className="bg-black py-[7rem]">
       <div className="w-[90%] mx-auto">
-        <div className="grid grid-cols-[9fr_3fr]">
-          <h2 className="text-white text-[48px] leading-[1.1] m-0">
+        <div className="grid grid-cols-1 md:grid-cols-[9fr_3fr]">
+          <h2 className="text-white text-3xl md:text-[48px] leading-[1.1] m-0">
             Analytics Simplified for <br />
-            <span className="bg-gradient-to-r from-[#5653FF] to-[#D252FF] bg-clip-text text-transparent text-[48px] leading-[1.1] m-0">
+            <span className="bg-gradient-to-r from-[#5653FF] to-[#D252FF] bg-clip-text text-transparent text-3xl md:text-[48px] leading-[1.1] m-0">
               Web and Native applications
             </span>
           </h2>
-          <p className="text-[18px] text-[#AAAAAA]">
+          <p className=" text-xl md:text-[18px] text-[#AAAAAA]">
             Collect, Organise and Analyse your data with our advance learning
             algorithm to find patterns in your data.
           </p>
         </div>
 
-        <div className="grid grid-cols-3 gap-x-3 mt-[7rem] grid-auto-rows-[1fr]">
+        <div className="grid grid-cols-1 md:grid-cols-3  gap-x-0 gap-y-3 md:gap-y-0 md:gap-x-3 mt-[7rem] grid-auto-rows-[1fr]">
           {/* grid-1 */}
           <div className="flex flex-col gap-3 h-full">
             <div className="border-[1px] bg-[#272727]/20 border-[#272727] pl-8 pt-10 rounded-[18px] h-full flex flex-col justify-between">

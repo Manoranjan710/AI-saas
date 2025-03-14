@@ -7,7 +7,8 @@ import { ChevronDown } from "lucide-react";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [showMobileDropdown, setShowMobileDropdown] = useState(false);
-  const [showMobileProductDropdown, setShowMobileProductDropdown] = useState(false);
+  const [showMobileProductDropdown, setShowMobileProductDropdown] =
+    useState(false);
   const [showModeDropdown, setShowModeDropdown] = useState(false);
   const [showProductDropdown, setShowProductDropdown] = useState(false);
 
@@ -189,7 +190,9 @@ const Navbar = () => {
           {/* Mobile "Product" Dropdown */}
           <div>
             <button
-              onClick={() => setShowMobileProductDropdown(!showMobileProductDropdown)}
+              onClick={() =>
+                setShowMobileProductDropdown(!showMobileProductDropdown)
+              }
               className="w-full text-left px-3 py-2 text-gray-200 hover:text-purple-400 focus:outline-none"
             >
               Product
@@ -229,6 +232,12 @@ const Navbar = () => {
             className="block px-3 py-2 text-gray-200 hover:text-purple-400"
           >
             Log In
+          </Link>
+          <Link
+            href=""
+            className="block px-3 py-2 bg-[#5552FF] w-fit rounded-lg text-gray-200 hover:text-purple-400"
+          >
+            Get Started
           </Link>
         </div>
       </div>

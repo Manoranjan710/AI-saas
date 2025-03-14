@@ -4,31 +4,26 @@ import React from "react";
 
 const Details = () => {
   return (
-    <div className="bg-black pb-7">
+    <div className="bg-black pb-7 px-4 sm:px-6 lg:px-8">
       <div className="flex justify-center items-center">
-        <div className=" flex flex-col justify-center items-center mt-10">
-          <h2 className="text-white text-[46px] leading-[1.1] m-0">
+        <div className="flex flex-col justify-center items-center mt-10 text-center">
+          <h2 className="text-white text-[36px] sm:text-[46px] leading-[1.1] m-0">
             Better Understand your
           </h2>
-          <h2 className="bg-gradient-to-r from-[#5653FF] to-[#D252FF] bg-clip-text text-transparent text-[46px] leading-[1.1] m-0">
+          <h2 className="bg-gradient-to-r from-[#5653FF] to-[#D252FF] bg-clip-text text-transparent text-[36px] sm:text-[46px] leading-[1.1] m-0">
             SaaS, E-commerce and more
           </h2>
         </div>
       </div>
 
-      <div className="grid grid-cols-[10fr_10fr] w-[90%] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-[90%] mx-auto">
         <Image
           alt=""
           src={require("@/public/grid-img-3.png")}
-          className="w-fit h-[400px]"
+          className="w-full h-auto max-h-[400px]"
         />
-        {/* <Image
-              alt=""
-              src={require("@/public/grid-img-2.png")}
-              className="absolute top-0 left-[50%] "
-            /> */}
-        <div className="flex flex-col justify-center ">
-          <h2 className="text-[32px] text-white">
+        <div className="flex flex-col justify-center text-center md:text-left">
+          <h2 className="text-[28px] sm:text-[32px] text-white">
             Comprehensive Data Collection
           </h2>
           <p className="text-[16px] text-[#AAAAAA]">
@@ -37,7 +32,7 @@ const Details = () => {
             effortlessly with your existing tools to provide a holistic view of
             your business.
           </p>
-          <div className="mt-3 flex ">
+          <div className="mt-3 flex justify-center md:justify-start">
             <button className="text-white flex bg-[rgba(58,58,58,0.4)] rounded-lg p-2 px-7 text-[16px]">
               Learn More
               <span className="ml-7 flex justify-center items-center">
@@ -52,8 +47,8 @@ const Details = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center ">
-          <h2 className="text-[32px] text-white">
+        <div className="flex flex-col justify-center text-center md:text-left">
+          <h2 className="text-[28px] sm:text-[32px] text-white">
             Advanced Data Visualization
           </h2>
           <p className="text-[16px] text-[#AAAAAA]">
@@ -61,7 +56,7 @@ const Details = () => {
             From interactive dashboards to detailed reports, our visualizations
             help you quickly identify trends, patterns, and opportunities.
           </p>
-          <div className="mt-3 flex ">
+          <div className="mt-3 flex justify-center md:justify-start">
             <button className="text-white flex bg-[rgba(58,58,58,0.4)] rounded-lg p-2 px-7 text-[16px]">
               Learn More
               <span className="ml-7 flex justify-center items-center">
@@ -75,27 +70,25 @@ const Details = () => {
             </button>
           </div>
         </div>
-        <div>
-          <Image
-            alt=""
-            src={require("@/public/grid-img-4.png")}
-            className="w-fit h-[400px]"
-          />
-        </div>
+        <Image
+          alt=""
+          src={require("@/public/grid-img-4.png")}
+          className="w-full h-auto max-h-[400px]"
+        />
 
         <Image
           alt=""
           src={require("@/public/grid-img-5.png")}
-          className="w-fit h-[400px]"
+          className="w-full h-auto max-h-[400px]"
         />
-        <div className="flex flex-col justify-center ">
-          <h2 className="text-[32px] text-white">Behavioural Analysis</h2>
+        <div className="flex flex-col justify-center text-center md:text-left">
+          <h2 className="text-[28px] sm:text-[32px] text-white">Behavioural Analysis</h2>
           <p className="text-[16px] text-[#AAAAAA]">
             Dive deep into user behavior to understand how customers interact
             with your product. Identify key touchpoints, track usage patterns,
             and uncover areas for improvement to enhance the user experience.
           </p>
-          <div className="mt-3 flex ">
+          <div className="mt-3 flex justify-center md:justify-start">
             <button className="text-white flex bg-[rgba(58,58,58,0.4)] rounded-lg p-2 px-7 text-[16px]">
               Learn More
               <span className="ml-7 flex justify-center items-center">

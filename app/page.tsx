@@ -17,18 +17,18 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      {/* <Hero/>
+      <Hero/>
       <HeroB/>
       <Companies/>
       <Details/>
       <FundDetails/>
       <Analytics/>
-      <BetterUnderstand/>
-      <DataInsights/>
-      <Apps/>
-      <StayUpdate/>
-      <ScaleUp/>
-      <Footer/> */}
+      {/* <BetterUnderstand/> */}
+      {/* <DataInsights/> */}
+      {/* <Apps/> */}
+      {/* <StayUpdate/> */}
+      {/* <ScaleUp/> */}
+      {/* <Footer/> */}
     </div>
   );
 }
