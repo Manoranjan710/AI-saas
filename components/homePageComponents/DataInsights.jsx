@@ -2,6 +2,13 @@
 import React, { useState, useEffect, useRef } from "react";
 
 const DataInsights = () => {
+  const [screenWidth, setScreenWidth] = useState(0);
+
+useEffect(() => {
+  if (typeof window !== "undefined") {
+    setScreenWidth(window.innerWidth);
+  }
+}, []);
   const testimonials = [
     {
       id: 1,
@@ -112,11 +119,11 @@ const DataInsights = () => {
             }`}
             style={{
               transform: `translateX(-${
-                topCarouselPosition * (100 / (window.innerWidth < 768 ? 1 : 3))
+                topCarouselPosition * (100 / (screenWidth < 768 ? 1 : 3))
               }%)`,
               width: `${
                 duplicatedTestimonials.length *
-                (100 / (window.innerWidth < 768 ? 1 : 3))
+                (100 / (screenWidth < 768 ? 1 : 3))
               }%`,
             }}
           >
@@ -124,7 +131,7 @@ const DataInsights = () => {
               <div
                 key={testimonial.uniqueId}
                 className={`px-2 ${
-                  window.innerWidth < 768 ? "w-full" : "w-1/3"
+                  screenWidth < 768 ? "w-full" : "w-1/3"
                 }`}
                 style={{ height: "180px" }}
               >
@@ -146,11 +153,11 @@ const DataInsights = () => {
             style={{
               transform: `translateX(-${
                 bottomCarouselPosition *
-                (100 / (window.innerWidth < 768 ? 2 : 4))
+                (100 / (screenWidth < 768 ? 2 : 4))
               }%)`,
               width: `${
                 duplicatedTestimonials.length *
-                (100 / (window.innerWidth < 768 ? 2 : 4))
+                (100 / (screenWidth < 768 ? 2 : 4))
               }%`,
             }}
           >
@@ -158,10 +165,10 @@ const DataInsights = () => {
               <div
                 key={testimonial.uniqueId}
                 className={`px-2 ${
-                  window.innerWidth < 768 ? "w-1/2" : "w-1/4"
+                  screenWidth < 768 ? "w-1/2" : "w-1/4"
                 }`}
                 style={{
-                  height: window.innerWidth < 768 ? "250px" : "220px", // Increased height on mobile
+                  height: screenWidth < 768 ? "250px" : "220px", // Increased height on mobile
                 }}
               >
                 <TestimonialCard testimonial={testimonial} />

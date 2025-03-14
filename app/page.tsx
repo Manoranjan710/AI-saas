@@ -25,8 +25,8 @@ export default function Home() {
       <Analytics/>
       <BetterUnderstand/>
       <DataInsights/>
-      {/* <Apps/> */}
-      {/* <StayUpdate/> */}
+      <Apps/>
+      <StayUpdate/>
       {/* <ScaleUp/> */}
       {/* <Footer/> */}
     </div>
